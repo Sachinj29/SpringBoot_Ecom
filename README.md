@@ -77,9 +77,11 @@ Spring Boot RESTful service structured into:
 - PostgreSQL
 - Maven
 
-### 🔧 Backend Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/yourusername/ecommerce-app.git
-   cd ecommerce-app/backend
+
+### 🔧 Configure database in application.properties :
+
+spring.datasource.url=jdbc:postgresql://localhost:5432/your_datbase_name
+spring.datasource.username=your_username
+spring.datasource.password=your_password
+
