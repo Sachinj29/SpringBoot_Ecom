@@ -81,7 +81,7 @@ Spring Boot RESTful service structured into:
 
 ### 🔧 Configure database in application.properties :
 
-spring.datasource.url=jdbc:postgresql://localhost:5432/your_datbase_name
-spring.datasource.username=your_username
-spring.datasource.password=your_password
+- spring.datasource.url=jdbc:postgresql://localhost:5432/your_datbase_name
+- spring.datasource.username=your_username
+- spring.datasource.password=your_password
 
